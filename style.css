@@ -138,11 +138,20 @@ section span {
 }
 
 /* --------------------section tv-portion-------------------------- */
+.tv-image-div{
+  position: relative;
+}
 section #tv-image {
   height: 350px;
 }
 .enjoy-your-tv {
   margin: 0 8rem;
+}
+.tv-image-div video{
+  position: absolute;
+  top:9.5%;
+  left: -1.6%;
+  scale: 71%;
 }
 
 #monitor-image {
@@ -152,6 +161,19 @@ section #tv-image {
 
 .download-show .download-show-right {
   margin: 0 0rem 0 15rem;
+}
+
+/* ==========watch everywhere=== */
+.watch-everywhere-right
+{
+  position: relative;
+}
+.watch-everywhere-right video{
+  position: absolute;
+  top:-9.6%;
+  left: -1.6%;
+  scale: 65%;
+ 
 }
 /* --------------------Children section------------------------- */
 #children-img {
@@ -371,7 +393,7 @@ footer select {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 430px) {
   section #tv-image {
     height: 200px;
   }
@@ -410,6 +432,18 @@ footer select {
   svg{
     width: 120px;
   }
+  .tv-image-div video {
+    position: absolute;
+    top: -19.5%;
+    left: -40%;
+    scale: 41%;
+}
+.watch-everywhere-right video {
+  position: absolute;
+  top: -34.5%;
+  left: -40%;
+  scale: 41%;
+}
 }
 
 @media (max-width: 380px) {
